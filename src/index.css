@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeee;
+}
+
+.card {
+  background-color: #ffff;
+  margin-top: 16px;
+}
+
+.card:nth-child(odd) {
+  background-color: #ccecff;
+}
+
+.min-h-device {
+  min-height: 100dvh;
+}
